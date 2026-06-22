@@ -1,5 +1,5 @@
 # stm32-pwm-generator
-Generates PWM at 10% duty cycle with 8-bit timer.
+Generates PWM at 10% duty cycle with 8-bit timer. Blinking LED included.
 
 ## Hardware
 - Board: STM32 Nucleo-F401RE
