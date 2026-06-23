@@ -1,5 +1,5 @@
 # stm32-pwm-generator
-Generates PWM at 10% duty cycle with 8-bit timer. Blinking LED included.
+Generates PWM at 10% duty cycle with 8-bit timer. Blinking LED code included in while loop.
 
 ## Hardware
 - Board: STM32 Nucleo-F401RE
@@ -12,4 +12,4 @@ Generates PWM at 10% duty cycle with 8-bit timer. Blinking LED included.
 
   ## Images
 ![description](https://github.com/noaheruiz/stm32-pwm-generator/blob/593a846615417c22565ef152013a5126560eb244/IMG_2493.JPEG)
-Oscilloscope shows 10% duty cycle and average voltage around 380mV. Frequency is 333kHz since my prescaler is 0, counter period, or ARR, is 255, and my clock speed is 84MHz.
+Oscilloscope shows 10% duty cycle and average voltage around 380mV. Frequency is 333kHz since my prescaler is 0, counter period/ARR is 255, and my clock speed is 84MHz.
